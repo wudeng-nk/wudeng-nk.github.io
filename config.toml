@@ -6,9 +6,6 @@ theme = "LoveIt"
 # themes directory
 # 主题目录
 themesDir = "themes"
-#ignoreErrors = ["error-remote-getjson"]
-# publicDir 设置为 docs， 方便发布到 github pages
-publishDir = "docs"   
 
 
 # website title
