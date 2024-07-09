@@ -8,7 +8,7 @@ theme = "LoveIt"
 themesDir = "themes"
 # website title
 # 网站标题
-title = "LoveIt"
+title = "五灯的"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
@@ -893,7 +893,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         identifier = "posts"
         pre = ""
         post = ""
-        name = "所有文章"
+        name = "文章"
         url = "/posts/"
         title = ""
       [[languages.zh-cn.menu.main]]
