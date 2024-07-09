@@ -110,15 +110,7 @@
                     hreflang="zh-cn"
                     href="http://localhost:1313/posts/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3-typeit-shortcode/"
                     /></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2024-07-09T13:02:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="http://localhost:1313/en/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="http://localhost:1313/"
-                    /></url><url>
+            <loc>http://localhost:1313/posts/hello-world/</loc><lastmod>2024-07-09T12:44:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>http://localhost:1313/posts/</loc><lastmod>2024-07-09T13:02:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
@@ -128,8 +120,15 @@
                     hreflang="zh-cn"
                     href="http://localhost:1313/posts/"
                     /></url><url>
-            <loc>http://localhost:1313/posts/test/</loc><lastmod>2024-07-09T13:02:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>http://localhost:1313/posts/hello-world/</loc><lastmod>2024-07-09T12:44:44&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://localhost:1313/</loc><lastmod>2024-07-09T13:02:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="http://localhost:1313/en/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="http://localhost:1313/"
+                    /></url><url>
             <loc>http://localhost:1313/categories/</loc><lastmod>2024-07-09T13:02:38&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
