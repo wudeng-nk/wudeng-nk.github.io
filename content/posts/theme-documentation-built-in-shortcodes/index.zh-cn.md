@@ -1,5 +1,5 @@
 ---
-weight: 3
+weight: 10
 title: "主题文档 - 内置 Shortcodes"
 date: 2020-03-04T16:29:59+08:00
 lastmod: 2020-03-04T16:29:59+08:00
@@ -17,7 +17,6 @@ categories: ["documentation"]
 
 lightgallery: true
 ---
-
 **Hugo** 提供了多个内置的 Shortcodes, 以方便作者保持 Markdown 内容的整洁.
 
 <!--more-->
@@ -32,7 +31,7 @@ shortcode 是一个简单代码段, 可以生成合理的 HTML 代码, 并且符
 Hugo 附带了一组预定义的 shortcodes, 它们实现了一些非常常见的用法.
 提供这些 shortcodes 是为了方便保持你的 Markdown 内容简洁.
 
-## 1 figure {#figure}
+## 1 figure
 
 [`figure` 的文档](https://gohugo.io/content-management/shortcodes#figure)
 
@@ -99,6 +98,7 @@ Hugo 附带了一组预定义的 shortcodes, 它们实现了一些非常常见�
 呈现的输出效果如下:
 
 {{< highlight html >}}
+
 <section id="main">
     <div>
         <h1 id="title">{{ .Title }}</h1>
@@ -133,7 +133,7 @@ For more information please have a look at GitHub issue [#7879](https://github.c
 
 {{< param description >}}
 
-## 6 ref 和 relref {#ref-and-relref}
+## 6 ref 和 relref
 
 [`ref` 和 `relref` 的文档](https://gohugo.io/content-management/shortcodes#ref-and-relref)
 

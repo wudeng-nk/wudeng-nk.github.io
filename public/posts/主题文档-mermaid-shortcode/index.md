@@ -1,6 +1,5 @@
 # 主题文档 - mermaid Shortcode
 
-
 {{< version 0.2.11 changed >}}
 
 `mermaid` shortcode 使用 [Mermaid](https://mermaidjs.github.io/) 库提供绘制图表和流程图的功能.
@@ -11,7 +10,7 @@
 
 只需将你的 mermaid 代码插入 `mermaid` shortcode 中即可.
 
-## 流程图 {#flowchart}
+## 流程图
 
 一个 **流程图** `mermaid` 示例:
 
@@ -35,7 +34,7 @@ graph LR;
     C -->|Two| E[Result two]
 {{< /mermaid >}}
 
-## 时序图 {#sequence-diagram}
+## 时序图
 
 一个 **时序图** `mermaid` 示例:
 
@@ -65,13 +64,13 @@ sequenceDiagram
     loop Healthcheck
         John->John: Fight against hypochondria
     end
-    Note right of John: Rational thoughts <br/>prevail...
+    Note right of John: Rational thoughts `<br/>`prevail...
     John-->Alice: Great!
     John->Bob: How about you?
     Bob-->John: Jolly good!
 {{< /mermaid >}}
 
-## 甘特图 {#gantt}
+## 甘特图
 
 一个 **甘特图** `mermaid` 示例:
 
@@ -105,7 +104,7 @@ Future task               :         des3, after des2, 5d
 Future task2              :         des4, after des3, 5d
 {{< /mermaid >}}
 
-## 类图 {#class-diagram}
+## 类图
 
 一个 **类图** `mermaid` 示例:
 
@@ -161,7 +160,7 @@ classDiagram
     }
 {{< /mermaid >}}
 
-## 状态图 {#state-diagram}
+## 状态图
 
 一个 **状态图** `mermaid` 示例:
 
@@ -189,7 +188,7 @@ stateDiagram-v2
     Crash --> [*]
 {{< /mermaid >}}
 
-## Git 图 {#git-graph}
+## Git 图
 
 一个 **Git 图** `mermaid` 示例:
 
@@ -225,7 +224,7 @@ gitGraph
     commit
 {{< /mermaid >}}
 
-## 实体关系图 {#entity-relationship-diagram}
+## 实体关系图
 
 一个 **实体关系图** `mermaid` 示例:
 
@@ -247,7 +246,7 @@ erDiagram
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 {{< /mermaid >}}
 
-## 用户体验旅程图 {#user-journey}
+## 用户体验旅程图
 
 一个 **用户体验旅程图** `mermaid` 示例:
 
@@ -279,7 +278,7 @@ journey
       Sit down: 5: Me
 {{< /mermaid >}}
 
-## 饼图 {#pie}
+## 饼图
 
 一个 **饼图** `mermaid` 示例:
 
@@ -301,7 +300,7 @@ pie
     "Rats" : 15
 {{< /mermaid >}}
 
-## 依赖图 {#requirement-diagram}
+## 依赖图
 
 一个 **依赖图** `mermaid` 示例:
 

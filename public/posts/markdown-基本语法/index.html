@@ -24,7 +24,7 @@
 <meta name="application-name" content="灯言灯语">
 <meta name="apple-mobile-web-app-title" content="灯言灯语"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/posts/markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/" /><link rel="prev" href="http://localhost:1313/posts/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3-mermaid-shortcode/" /><link rel="next" href="http://localhost:1313/posts/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3-%E6%89%A9%E5%B1%95-shortcodes/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/posts/markdown-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/" /><link rel="prev" href="http://localhost:1313/posts/emoji-%E6%94%AF%E6%8C%81/" /><link rel="next" href="http://localhost:1313/posts/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3-typeit-shortcode/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -171,7 +171,7 @@
       </ul>
     </li>
     <li><a href="#10-表格">10 表格</a></li>
-    <li><a href="#links">11 链接</a>
+    <li><a href="#11-链接">11 链接</a>
       <ul>
         <li><a href="#基本链接">基本链接</a></li>
         <li><a href="#添加一个标题">添加一个标题</a></li>
@@ -751,7 +751,7 @@ odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac 
 </ul>
 <h2 id="9-代码">9 代码</h2>
 <h3 id="行内代码">行内代码</h3>
-<p>用 <code>`</code> 包装行内代码段.</p>
+<p>用 <code>&lt;code&gt;```&lt;/code&gt;</code> 包装行内代码段.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -771,7 +771,7 @@ odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac 
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  在这个例子中, <span class="p">&lt;</span><span class="nt">code</span><span class="p">&gt;</span><span class="ni">&amp;lt;</span>section<span class="ni">&amp;gt;&amp;lt;</span>/section<span class="ni">&amp;gt;</span><span class="p">&lt;/</span><span class="nt">code</span><span class="p">&gt;</span> 会被包裹成 <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>代码<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span>.
+</span></span><span class="line"><span class="cl">  在这个例子中, <span class="p">&lt;</span><span class="nt">code</span><span class="p">&gt;&lt;</span><span class="nt">section</span><span class="p">&gt;&lt;/</span><span class="nt">section</span><span class="p">&gt;&lt;/</span><span class="nt">code</span><span class="p">&gt;</span> 会被包裹成 <span class="p">&lt;</span><span class="nt">strong</span><span class="p">&gt;</span>代码<span class="p">&lt;/</span><span class="nt">strong</span><span class="p">&gt;</span>.
 </span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -821,7 +821,7 @@ line 3 of code
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="围栏代码块">围栏代码块</h3>
-<p>使用 &ldquo;围栏&rdquo; <code>```</code> 来生成一段带有语言属性的代码块.</p>
+<p>使用 &ldquo;围栏&rdquo; <code>&lt;code&gt;`````&lt;/code&gt;</code> 来生成一段带有语言属性的代码块.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -850,7 +850,7 @@ line 3 of code
 </div><h3 id="语法高亮">语法高亮</h3>
 <p><strong><ruby>GFM<rt>GitHub Flavored Markdown</rt></ruby></strong> 也支持语法高亮.</p>
 <p>要激活它，只需在第一个代码 &ldquo;围栏&rdquo; 之后直接添加你要使用的语言的文件扩展名,
-<code>```js</code>, 语法高亮显示将自动应用于渲染的 HTML 中.</p>
+<code>&lt;code&gt;````js</code></code>`, 语法高亮显示将自动应用于渲染的 HTML 中.</p>
 <p>例如, 在以下 JavaScript 代码中应用语法高亮:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1042,7 +1042,7 @@ line 3 of code
 </span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><div class="details admonition note open">
+</div><p><div class="details admonition note open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>文本右对齐或居中对齐<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
         </div>
@@ -1086,12 +1086,16 @@ line 3 of code
 <td style="text-align:center">ext</td>
 <td style="text-align:right">extension to be used for dest files.</td>
 </tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 </div>
         </div>
-    </div>
-<h2 id="links">11 链接</h2>
+    </div> |                                                                           |</p>
+<h2 id="11-链接">11 链接</h2>
 <h3 id="基本链接">基本链接</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1262,16 +1266,14 @@ line 3 of code
 <pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">![Alt text][id]
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p><figure><a class="lightgallery" href="https://octodex.github.com/images/dojocat.jpg" title="Alt text" data-thumbnail="https://octodex.github.com/images/dojocat.jpg" data-sub-html="<h2>The Dojocat</h2><p>Alt text</p>">
-        <img
-            class="lazyload"
-            src="/svg/loading.min.svg"
-            data-src="https://octodex.github.com/images/dojocat.jpg"
-            data-srcset="https://octodex.github.com/images/dojocat.jpg, https://octodex.github.com/images/dojocat.jpg 1.5x, https://octodex.github.com/images/dojocat.jpg 2x"
-            data-sizes="auto"
-            alt="https://octodex.github.com/images/dojocat.jpg" />
-    </a><figcaption class="image-caption">The Dojocat</figcaption>
-    </figure></p>
+</div><p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://octodex.github.com/images/dojocat.jpg"
+        data-srcset="https://octodex.github.com/images/dojocat.jpg, https://octodex.github.com/images/dojocat.jpg 1.5x, https://octodex.github.com/images/dojocat.jpg 2x"
+        data-sizes="auto"
+        alt="https://octodex.github.com/images/dojocat.jpg"
+        title="Alt text" /></p>
 <p>稍后在文档中提供参考内容, 用来定义 URL 的位置:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1323,8 +1325,8 @@ line 3 of code
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3-mermaid-shortcode/" class="prev" rel="prev" title="主题文档 - mermaid Shortcode"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>主题文档 - mermaid Shortcode</a>
-            <a href="/posts/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3-%E6%89%A9%E5%B1%95-shortcodes/" class="next" rel="next" title="主题文档 - 扩展 Shortcodes">主题文档 - 扩展 Shortcodes<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/posts/emoji-%E6%94%AF%E6%8C%81/" class="prev" rel="prev" title="Emoji 支持"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Emoji 支持</a>
+            <a href="/posts/%E4%B8%BB%E9%A2%98%E6%96%87%E6%A1%A3-typeit-shortcode/" class="next" rel="next" title="主题文档 - typeit Shortcode">主题文档 - typeit Shortcode<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">

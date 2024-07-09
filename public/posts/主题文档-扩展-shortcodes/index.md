@@ -1,6 +1,5 @@
 # 主题文档 - 扩展 Shortcodes
 
-
 **LoveIt** 主题在 Hugo 内置的 shortcode 的基础上提供多个扩展的 shortcode.
 
 <!--more-->
@@ -49,25 +48,21 @@ This is a **right-aligned** paragraph.
 
 * **href** *[必需]* (**第一个**位置参数)
 
-    链接的目标.
-
+  链接的目标.
 * **content** *[可选]* (**第二个**位置参数)
 
-    链接的内容, 默认值是 **href** 参数的值.
+  链接的内容, 默认值是 **href** 参数的值.
 
-    *支持 Markdown 或者 HTML 格式.*
-
+  *支持 Markdown 或者 HTML 格式.*
 * **title** *[可选]* (**第三个**位置参数)
 
-    HTML `a` 标签 的 `title` 属性, 当悬停在链接上会显示的提示.
-
+  HTML `a` 标签 的 `title` 属性, 当悬停在链接上会显示的提示.
 * **rel** *[可选]*
 
-    HTML `a` 标签 的 `rel` 补充属性.
-
+  HTML `a` 标签 的 `rel` 补充属性.
 * **class** *[可选]*
 
-    HTML `a` 标签 的 `class` 属性.
+  HTML `a` 标签 的 `class` 属性.
 
 一个 `link` 示例:
 
@@ -103,7 +98,7 @@ This is a **right-aligned** paragraph.
 
 {{< link "https://github.com/upstage/" Upstage "Visit Upstage!" >}}
 
-## 3 image {#image}
+## 3 image
 
 {{< version 0.2.0 changed >}}
 
@@ -115,51 +110,41 @@ This is a **right-aligned** paragraph.
 
 * **src** *[必需]* (**第一个**位置参数)
 
-    图片的 URL.
-
+  图片的 URL.
 * **alt** *[可选]* (**第二个**位置参数)
 
-    图片无法显示时的替代文本, 默认值是 **src** 参数的值.
+  图片无法显示时的替代文本, 默认值是 **src** 参数的值.
 
-    *支持 Markdown 或者 HTML 格式.*
-
+  *支持 Markdown 或者 HTML 格式.*
 * **caption** *[可选]* (**第三个**位置参数)
 
-    图片标题.
+  图片标题.
 
-    *支持 Markdown 或者 HTML 格式.*
-
+  *支持 Markdown 或者 HTML 格式.*
 * **title** *[可选]*
 
-    当悬停在图片上会显示的提示.
-
+  当悬停在图片上会显示的提示.
 * **class** *[可选]*
 
-    HTML `figure` 标签的 `class` 属性.
-
+  HTML `figure` 标签的 `class` 属性.
 * **src_s** *[可选]*
 
-    图片缩略图的 URL, 用在画廊模式中, 默认值是 **src** 参数的值.
-
+  图片缩略图的 URL, 用在画廊模式中, 默认值是 **src** 参数的值.
 * **src_l** *[可选]*
 
-    高清图片的 URL, 用在画廊模式中, 默认值是 **src** 参数的值.
-
+  高清图片的 URL, 用在画廊模式中, 默认值是 **src** 参数的值.
 * **height** *[可选]*
 
-    图片的 `height` 属性.
-
+  图片的 `height` 属性.
 * **width** *[可选]*
 
-    图片的 `width` 属性.
-
+  图片的 `width` 属性.
 * **linked** *[可选]*
 
-    图片是否需要被链接, 默认值是 `true`.
-
+  图片是否需要被链接, 默认值是 `true`.
 * **rel** *[可选]*
 
-    HTML `a` 标签 的 `rel` 补充属性, 仅在 **linked** 属性设置成 `true` 时有效.
+  HTML `a` 标签 的 `rel` 补充属性, 仅在 **linked** 属性设置成 `true` 时有效.
 
 一个 `image` 示例:
 
@@ -229,15 +214,13 @@ This is a **right-aligned** paragraph.
 
 * **type** *[可选]* (**第一个**位置参数)
 
-    `admonition` 横幅的类型, 默认值是 `note`.
-
+  `admonition` 横幅的类型, 默认值是 `note`.
 * **title** *[可选]* (**第二个**位置参数)
 
-    `admonition` 横幅的标题, 默认值是 **type** 参数的值.
-
+  `admonition` 横幅的标题, 默认值是 **type** 参数的值.
 * **open** *[可选]* (**第三个**位置参数) {{< version 0.2.0 changed >}}
 
-    横幅内容是否默认展开, 默认值是 `true`.
+  横幅内容是否默认展开, 默认值是 `true`.
 
 一个 `admonition` 示例:
 
@@ -362,23 +345,19 @@ console.log('Hello LoveIt!');
 
 * **url** *[必需]* (**第一个**位置参数)
 
-    URL of the personal page.
-
+  URL of the personal page.
 * **name** *[必需]* (**第二个**位置参数)
 
-    Name of the person.
-
+  Name of the person.
 * **text** *[可选]* (**第三个**位置参数)
 
-    Text to display as hover tooltip of the link.
-
+  Text to display as hover tooltip of the link.
 * **picture** *[可选]* (**第四个**位置参数)
 
-    A picture to use as person's avatar.
-
+  A picture to use as person's avatar.
 * **nick** *[可选]*
 
-    Nickame of the person.
+  Nickame of the person.
 
 一个 `person` 示例:
 

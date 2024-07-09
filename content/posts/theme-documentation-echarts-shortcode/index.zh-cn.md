@@ -1,5 +1,5 @@
 ---
-weight: 6
+weight: 10
 title: "主题文档 - echarts Shortcode"
 date: 2020-03-03T14:29:59+08:00
 lastmod: 2020-03-03T14:29:59+08:00
@@ -22,7 +22,6 @@ toc:
 code:
   maxShownLines: 70
 ---
-
 `echarts` shortcode 使用 [ECharts](https://echarts.apache.org/) 库提供数据可视化的功能.
 
 <!--more-->
@@ -407,8 +406,7 @@ data = [
 
 * **width** *[可选]* (**第一个**位置参数)
 
-    {{< version 0.2.0 >}} 数据可视化的宽度, 默认值是 `100%`.
-
+  {{< version 0.2.0 >}} 数据可视化的宽度, 默认值是 `100%`.
 * **height** *[可选]* (**第二个**位置参数)
 
-    {{< version 0.2.0 >}} 数据可视化的高度, 默认值是 `30rem`.
+  {{< version 0.2.0 >}} 数据可视化的高度, 默认值是 `30rem`.

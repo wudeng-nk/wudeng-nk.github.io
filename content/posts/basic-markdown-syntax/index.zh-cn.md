@@ -1,5 +1,5 @@
 ---
-weight: 4
+weight: 10
 title: "Markdown 基本语法"
 date: 2019-12-01T21:57:40+08:00
 lastmod: 2020-01-01T16:45:40+08:00
@@ -17,7 +17,6 @@ categories: ["Markdown"]
 
 lightgallery: true
 ---
-
 这篇文章提供了可以在 Hugo 的文章中使用的基本 Markdown 语法示例.
 
 <!--more-->
@@ -91,6 +90,7 @@ John Gruber, Markdown 的作者如是说:
 ```html
 <h3 id="custom-id">一个很棒的标题</h3>
 ```
+
 {{< /admonition >}}
 
 ## 2 注释
@@ -120,9 +120,11 @@ HTML 中的 `<hr>` 标签是用来在段落元素之间创建一个 "专题间�
 
 呈现的输出效果如下:
 
-___
 ---
-***
+
+---
+
+---
 
 ## 4 段落
 
@@ -278,9 +280,11 @@ odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac 
 呈现的输出效果如下:
 
 > Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue.
-Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
+> Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
+>
 >> Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
-odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
+>> odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
+>>
 
 ## 8 列表
 
@@ -408,14 +412,14 @@ odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac 
 呈现的输出效果如下:
 
 1. Lorem ipsum dolor sit amet
-1. Consectetur adipiscing elit
-1. Integer molestie lorem at massa
-1. Facilisis in pretium nisl aliquet
-1. Nulla volutpat aliquam velit
-1. Faucibus porta lacus fringilla vel
-1. Aenean sit amet erat nunc
-1. Eget porttitor lorem
-{{< /admonition >}}
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+4. Facilisis in pretium nisl aliquet
+5. Nulla volutpat aliquam velit
+6. Faucibus porta lacus fringilla vel
+7. Aenean sit amet erat nunc
+8. Eget porttitor lorem
+   {{< /admonition >}}
 
 ### 任务列表
 
@@ -430,7 +434,7 @@ odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac 
 
 呈现的输出效果如下:
 
-- [x] Write the press release
+- [X] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
 
@@ -438,7 +442,7 @@ odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac 
 
 ### 行内代码
 
-用 <code>`</code> 包装行内代码段.
+用 `<code>```</code>` 包装行内代码段.
 
 ```markdown
 在这个例子中, `<section></section>` 会被包裹成 **代码**.
@@ -452,7 +456,7 @@ odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac 
 
 ```html
 <p>
-  在这个例子中, <code>&lt;section&gt;&lt;/section&gt;</code> 会被包裹成 <strong>代码</strong>.
+  在这个例子中, <code><section></section></code> 会被包裹成 <strong>代码</strong>.
 </p>
 ```
 
@@ -489,12 +493,14 @@ odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac 
 
 ### 围栏代码块
 
-使用 "围栏" <code>```</code> 来生成一段带有语言属性的代码块.
+使用 "围栏" `<code>`````</code>` 来生成一段带有语言属性的代码块.
 
 {{< highlight markdown >}}
+
 ```markdown
 Sample text here...
 ```
+
 {{< / highlight >}}
 
 输出的 HTML 看起来像这样:
@@ -510,11 +516,12 @@ Sample text here...
 [GFM]^(GitHub Flavored Markdown) 也支持语法高亮.
 
 要激活它，只需在第一个代码 "围栏" 之后直接添加你要使用的语言的文件扩展名,
-<code>```js</code>, 语法高亮显示将自动应用于渲染的 HTML 中.
+`<code>````js`</code>`, 语法高亮显示将自动应用于渲染的 HTML 中.
 
 例如, 在以下 JavaScript 代码中应用语法高亮:
 
 {{< highlight markdown >}}
+
 ```js
 grunt.initConfig({
   assemble: {
@@ -535,6 +542,7 @@ grunt.initConfig({
   }
 };
 ```
+
 {{< / highlight >}}
 
 呈现的输出效果如下:
@@ -579,11 +587,11 @@ grunt.initConfig({
 
 呈现的输出效果如下:
 
-| Option | Description |
-| ------ | ----------- |
+| Option | Description                                                               |
+| ------ | ------------------------------------------------------------------------- |
 | data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+| engine | engine to be used for processing templates. Handlebars is the default.    |
+| ext    | extension to be used for dest files.                                      |
 
 输出的 HTML 看起来像这样:
 
@@ -627,14 +635,14 @@ grunt.initConfig({
 
 呈现的输出效果如下:
 
-| Option | Description |
-|:------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-{{< /admonition >}}
+|       Option       |                                                               Description |
+| :-----------------: | ------------------------------------------------------------------------: |
+|        data        | path to data files to supply the data that will be passed into templates. |
+|       engine       |    engine to be used for processing templates. Handlebars is the default. |
+|         ext         |                                      extension to be used for dest files. |
+| {{< /admonition >}} |                                                                           |
 
-## 11 链接 {#links}
+## 11 链接
 
 ### 基本链接
 
@@ -646,9 +654,9 @@ grunt.initConfig({
 
 呈现的输出效果如下 (将鼠标悬停在链接上，没有提示):
 
-<https://assemble.io>
+[https://assemble.io](https://assemble.io)
 
-<contact@revolunet.com>
+[contact@revolunet.com](mailto:contact@revolunet.com)
 
 [Assemble](https://assemble.io)
 
@@ -729,9 +737,6 @@ Content for chapter one.
 
 这是一个带标签的脚注[^label]
 
-[^1]: 这是一个数字脚注
-[^label]: 这是一个带标签的脚注
-
 ## 13 图片
 
 图片的语法与链接相似, 但包含一个在前面的感叹号.
@@ -764,8 +769,11 @@ Content for chapter one.
 [id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
 ```
 
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
 {{< admonition tip >}}
 **LoveIt** 主题提供了一个包含更多功能的 [图片的 shortcode](../theme-documentation-extended-shortcodes#image).
 {{< /admonition >}}
+
+[id]: https://octodex.github.com/images/dojocat.jpg
+[^1]: 这是一个数字脚注
+    
+[^label]: 这是一个带标签的脚注

@@ -1,6 +1,5 @@
 # 主题文档 - bilibili Shortcode
 
-
 {{< version 0.2.0 changed >}}
 
 `bilibili` shortcode 提供了一个内嵌的用来播放 bilibili 视频的响应式播放器.

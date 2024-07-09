@@ -1,6 +1,5 @@
 # 主题文档 - 基本概念
 
-
 探索 Hugo - **LoveIt** 主题的全部内容和背后的核心概念.
 
 <!--more-->
@@ -9,7 +8,7 @@
 
 由于 Hugo 提供的便利性, [Hugo](https://gohugo.io/) 本身是这个主题唯一的依赖.
 
-直接安装满足你操作系统 (**Windows**, **Linux**, **macOS**) 的最新版本 [:(far fa-file-archive fa-fw): Hugo (> 0.62.0)](https://gohugo.io/getting-started/installing/).
+直接安装满足你操作系统 (**Windows**, **Linux**, **macOS**) 的最新版本 [:(far fa-file-archive fa-fw): Hugo (&gt; 0.62.0)](https://gohugo.io/getting-started/installing/).
 
 {{< admonition note "为什么不支持早期版本的 Hugo?" >}}
 由于 [Markdown 渲染钩子函数](https://gohugo.io/getting-started/configuration-markup#markdown-render-hooks) 在 [Hugo 圣诞节版本](https://gohugo.io/news/0.62.0-relnotes/) 中被引入, 本主题只支持高于 **0.62.0** 的 Hugo 版本.
@@ -51,7 +50,7 @@ git init
 git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
 ```
 
-### 2.3 基础配置 {#basic-configuration}
+### 2.3 基础配置
 
 以下是 LoveIt 主题的基本配置:
 
@@ -156,6 +155,7 @@ hugo serve
 ```bash
 hugo serve --disableFastRender
 ```
+
 {{< /admonition >}}
 
 ### 2.6 构建网站
@@ -175,7 +175,7 @@ hugo
 
 ## 3 配置
 
-### 3.1 网站配置 {#site-configuration}
+### 3.1 网站配置
 
 除了 [Hugo 全局配置](https://gohugo.io/overview/configuration/) 和 [菜单配置](#basic-configuration) 之外, **LoveIt** 主题还允许您在网站配置中定义以下参数 (这是一个示例 `config.toml`, 其内容为默认值).
 
@@ -827,7 +827,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # CDN 数据文件名称, 默认不启用
   # ["jsdelivr.yml"]
   data = ""
-````
+```
 
 默认的 CDN 数据文件位于 `themes/LoveIt/assets/data/cdn/` 目录.
 可以在你的项目下相同路径存放你自己的数据文件: `assets/data/cdn/`.
@@ -910,33 +910,33 @@ $code-font-family: Fira Mono, Source Code Pro, Menlo, Consolas, Monaco, monospac
 
 ![语言切换](language-switch.gif "语言切换")
 
-### 4.1 兼容性 {#language-compatibility}
+### 4.1 兼容性
 
 {{< version 0.2.10 changed >}}
 
-| 语言 | Hugo 代码 | HTML `lang` 属性 | 主题文档 | Lunr.js 支持 |
-|:---- |:----:|:----:|:----:|:----:|
-| 英语 | `en` | `en` | :(far fa-check-square fa-fw): | :(far fa-check-square fa-fw): |
-| 简体中文 | `zh-cn` | `zh-CN` | :(far fa-check-square fa-fw): | :(far fa-check-square fa-fw): |
-| 繁體中文 | `zh-tw` | `zh-TW` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
-| 法语 | `fr` | `fr` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
-| 波兰语 | `pl` | `pl` | :(far fa-square fa-fw): | :(far fa-square fa-fw): |
-| 巴西葡萄牙语 | `pt-br` | `pt-BR` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
-| 意大利语 | `it` | `it` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
-| 西班牙语 | `es` | `es` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
-| 德语 | `de` | `de` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
-| 塞尔维亚语 | `pl` | `pl` | :(far fa-square fa-fw): | :(far fa-square fa-fw): |
-| 俄语 | `ru` | `ru` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
-| 罗马尼亚语 | `ro` | `ro` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
-| 越南语 | `vi` | `vi` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
-| 阿拉伯语 | `ar` | `ar` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
-| 加泰罗尼亚语 | `ca` | `ca` | :(far fa-square fa-fw): | :(far fa-square fa-fw): |
-| 泰语 | `th` | `th` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
-| 泰卢固语 | `te` | `te` | :(far fa-square fa-fw): | :(far fa-square fa-fw): |
-| 印尼语 | `id` | `id` | :(far fa-square fa-fw): | :(far fa-square fa-fw): |
-| 土耳其语 | `tr` | `tr` | :(far fa-square fa-fw): | :(far fa-check-square fa-fw): |
-| 韩语 | `ko` | `ko` | :(far fa-square fa-fw): | :(far fa-square fa-fw): |
-| 印地语 | `hi` | `hi` | :(far fa-square fa-fw): | :(far fa-square fa-fw): |
+| 语言         | Hugo 代码 | HTML `lang` 属性 |           主题文档           |         Lunr.js 支持         |
+| :----------- | :-------: | :----------------: | :---------------------------: | :---------------------------: |
+| 英语         |  `en`  |       `en`       | :(far fa-check-square fa-fw): | :(far fa-check-square fa-fw): |
+| 简体中文     | `zh-cn` |     `zh-CN`     | :(far fa-check-square fa-fw): | :(far fa-check-square fa-fw): |
+| 繁體中文     | `zh-tw` |     `zh-TW`     |    :(far fa-square fa-fw):    | :(far fa-check-square fa-fw): |
+| 法语         |  `fr`  |       `fr`       |    :(far fa-square fa-fw):    | :(far fa-check-square fa-fw): |
+| 波兰语       |  `pl`  |       `pl`       |    :(far fa-square fa-fw):    |    :(far fa-square fa-fw):    |
+| 巴西葡萄牙语 | `pt-br` |     `pt-BR`     |    :(far fa-square fa-fw):    | :(far fa-check-square fa-fw): |
+| 意大利语     |  `it`  |       `it`       |    :(far fa-square fa-fw):    | :(far fa-check-square fa-fw): |
+| 西班牙语     |  `es`  |       `es`       |    :(far fa-square fa-fw):    | :(far fa-check-square fa-fw): |
+| 德语         |  `de`  |       `de`       |    :(far fa-square fa-fw):    | :(far fa-check-square fa-fw): |
+| 塞尔维亚语   |  `pl`  |       `pl`       |    :(far fa-square fa-fw):    |    :(far fa-square fa-fw):    |
+| 俄语         |  `ru`  |       `ru`       |    :(far fa-square fa-fw):    | :(far fa-check-square fa-fw): |
+| 罗马尼亚语   |  `ro`  |       `ro`       |    :(far fa-square fa-fw):    | :(far fa-check-square fa-fw): |
+| 越南语       |  `vi`  |       `vi`       |    :(far fa-square fa-fw):    | :(far fa-check-square fa-fw): |
+| 阿拉伯语     |  `ar`  |       `ar`       |    :(far fa-square fa-fw):    | :(far fa-check-square fa-fw): |
+| 加泰罗尼亚语 |  `ca`  |       `ca`       |    :(far fa-square fa-fw):    |    :(far fa-square fa-fw):    |
+| 泰语         |  `th`  |       `th`       |    :(far fa-square fa-fw):    | :(far fa-check-square fa-fw): |
+| 泰卢固语     |  `te`  |       `te`       |    :(far fa-square fa-fw):    |    :(far fa-square fa-fw):    |
+| 印尼语       |  `id`  |       `id`       |    :(far fa-square fa-fw):    |    :(far fa-square fa-fw):    |
+| 土耳其语     |  `tr`  |       `tr`       |    :(far fa-square fa-fw):    | :(far fa-check-square fa-fw): |
+| 韩语         |  `ko`  |       `ko`       |    :(far fa-square fa-fw):    |    :(far fa-square fa-fw):    |
+| 印地语       |  `hi`  |       `hi`       |    :(far fa-square fa-fw):    |    :(far fa-square fa-fw):    |
 
 ### 4.2 基本配置
 

@@ -1,5 +1,5 @@
 ---
-weight: 9
+weight: 10
 title: "主题文档 - bilibili Shortcode"
 date: 2020-03-03T11:29:41+08:00
 lastmod: 2020-03-03T12:29:41+08:00
@@ -20,7 +20,6 @@ hiddenFromHomePage: true
 toc:
   enable: false
 ---
-
 {{< version 0.2.0 changed >}}
 
 `bilibili` shortcode 提供了一个内嵌的用来播放 bilibili 视频的响应式播放器.
