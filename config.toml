@@ -26,13 +26,13 @@ hasCJKLanguage = true
 
 # default amount of posts in each pages
 # 默认每页列表显示的文章数目
-paginate = 12
+paginate = 20
 # google analytics code [UA-XXXXXXXX-X]
 # 谷歌分析代号 [UA-XXXXXXXX-X]
 googleAnalytics = ""
 # copyright description used only for seo schema
 # 版权描述，仅仅用于 SEO
-copyright = ""
+copyright = "五灯"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -51,9 +51,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Author config
 # 作者配置
 [author]
-  name = "xxxx"
-  email = ""
-  link = ""
+  name = "五灯"
+  email = "yfzhang_nk@qq.com"
+  link = "wudeng-nk.github.io"
 
 # Menu config
 # 菜单配置
@@ -749,7 +749,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Permalinks 配置 (https://gohugo.io/content-management/urls/#permalinks)
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = ":filename"
+  posts = "/posts/:slug"
 
 # Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
 # 隐私信息配置 (https://gohugo.io/about/hugo-and-gdpr/)
@@ -783,7 +783,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
+  term = ["HTML"]
 
 # Multilingual
 # 多语言
