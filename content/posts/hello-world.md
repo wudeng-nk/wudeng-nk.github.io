@@ -2,9 +2,9 @@
 title: "Hello World"
 slug: "Hello World"
 subtitle: ""
-date: 2024-07-10T00:14:18+08:00
-lastmod: 2024-07-10T00:14:18+08:00
-draft: true
+date: 2024-07-10T15:58:08+08:00
+lastmod: 2024-07-10T15:58:08+08:00
+draft: false
 author: ""
 authorLink: ""
 description: ""
@@ -20,48 +20,27 @@ featuredImagePreview: ""
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
-twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
-linkToMarkdown: true
-rssFullText: false
-
-toc:
-  enable: true
-  auto: true
-code:
-  copy: true
-  maxShownLines: 50
-math:
-  enable: false
-  # ...
-mapbox:
-  # ...
-share:
-  enable: true
-  # ...
-comment:
-  enable: true
-  # ...
-library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
-seo:
-  images: []
-  # ...
 ---
 <!--more-->
 
-# 新开张
+## 写在前面
 
-博客没落的时候为什么还要搞一个博客
+Hello World算是一个开始，懂的都懂，程序员应该可以秒懂。以此篇作为一个开始，开启我的记录之旅。
+
+之前有个github账号，使用hexo弄过博客，但是因为搞了个什么认证，结果没有recovery code，那个账号算是彻底没了，因此重新申请了一个账号。
+
+这次是使用的hugo，上手相对来说还是比较麻烦的，尤其是这个主题设置，直接找现成的，就不做深度改造了，反正主要目的是想把自己的一些笔记公开，获得一些大家反馈，就不在乎主题样式了。
+
+## 为什么要写博客
+
+### 1. 提高写作能力
+
+想明白到讲清楚还差很多，要是能写出来就更难了，通过这么一个平台督促自己多谢，同时还可能收到反馈，形成成长的良性循环。
+
+### 2. 提升技术能力
+
+本博客主要是为了记录一些技术主题，当然也会有些读书笔记，生活感悟，之所以在github上开博客，最重要的一个契机是最近参加了一次CTF夺旗赛，对网络安全的内容提起了兴趣，尤其最近看到了SQL注入的内容，觉得值得一记，所以赶紧搭建起博客，记录一下学习内容。
+
+### 3. 给孩子做榜样
+
+近期带孩子参加了一个亲子私董会，其中我有个议题就是如何培养孩子的自律性，能够自己制定计划，并能坚持执行计划，有人出主意，家长也得跟着一起做，说的很有道理，因此我想了想，制定了一些读书计划、写作计划，计划的实施总需要有一些产出，搞这个博客就用来放置读书和写作的产出。
